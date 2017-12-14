@@ -185,7 +185,7 @@ void trackFilteredObject(int &x, int &y, Mat threshold, Mat &cameraFeed) {
 	}
 }
 
-/*int socket_function(char *orders)
+int socket_function(char *orders)
 {
 	
 	//struct sockaddr_in address;
@@ -223,7 +223,7 @@ int i;
 			send(sock,buff, strlen(buff), 0);
 			sleep(2);
 		}
-}*/
+}
 
 int main(int argc, char* argv[])
 {
